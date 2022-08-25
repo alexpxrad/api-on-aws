@@ -8,8 +8,9 @@ app.use(express.json())
 
 const PORT = 4040
 
-app.get('/', (req, res) => res.send(d`my api`))
+app.get('/', (req, res) => res.send(`my api`))
 
 app.listen(PORT, () => {
     console.log(`Listening on PORT ${PORT}`)
 })
+
